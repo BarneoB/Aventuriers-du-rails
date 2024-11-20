@@ -1,0 +1,3 @@
+* La plupart des fonctions qui vous ont été donnée ont été documentée. Cependant il est nécessaire de lire le README.md pour comprendre certaines définitions et comment utiliser ces fonctions.
+* Les classes de tests qui vous ont été fournies sont loin d'être satisfaisantes. À vous d'écrire les bons tests.
+* Les classes de tests dont le nom contient le mot `Prof` ne doivent pas être modifiées. Elles serviront à l'ajout ultérieur des nouveaux tests pour vous aider à avancer dans le projet.
