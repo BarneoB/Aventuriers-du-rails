@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="141.0" prefWidth="600.0" type="HBox" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER_LEFT" prefHeight="400.0" prefWidth="167.0">
+         <children>
+            <Button fx:id="Passer" alignment="CENTER" mnemonicParsing="false" text="Passer">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="13.0" />
+               </font></Button>
+            <TextField fx:id="textField" prefHeight="24.0" prefWidth="147.0" />
+         </children>
+      </VBox>
+      <Button fx:id="Wagons" contentDisplay="CENTER" mnemonicParsing="false" text="Pions WAGONS">
+         <font>
+            <Font name="Tlwg Mono Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="Bateaux" contentDisplay="CENTER" mnemonicParsing="false" text="Pions BATEAUX">
+         <font>
+            <Font name="Tlwg Mono Bold" size="13.0" />
+         </font>
+      </Button>
+      <VBox fx:id="boxDest" alignment="CENTER" prefHeight="400.0" prefWidth="202.0" />
+   </children>
+</fx:root>
